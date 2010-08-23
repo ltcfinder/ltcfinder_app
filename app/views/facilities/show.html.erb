@@ -1,0 +1,13 @@
+<p>
+  <b>Name:</b>
+  <%=h @facility.name %>
+</p>
+
+<p>
+  <b>Zipcode:</b>
+  <%=h @facility.zipcode %>
+</p>
+
+
+<%= link_to 'Edit', edit_facility_path(@facility) %> |
+<%= link_to 'Back', facilities_path %>
